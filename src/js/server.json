@@ -1,0 +1,44 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "foto": "../logos/css.png"
+    },
+    {
+      "id": 2,
+      "foto": "../logos/html.png"
+    },
+    {
+      "id": 3,
+      "foto": "../logos/java.png"
+    },
+    {
+      "id": 4,
+      "foto": "../logos/javascript.png"
+    },
+    {
+      "id": 5,
+      "foto": "../logos/node.png"
+    },
+    {
+      "id": 6,
+      "foto": "../logos/react.png"
+    },
+    {
+      "id": 7,
+      "foto": "../logos/angular.png"
+    },
+    {
+      "id": 8,
+      "foto": "../logos/csharpe.png"
+    },
+    {
+      "id": 9,
+      "foto": "../logos/kotlin.png"
+    },
+    {
+      "id": 10,
+      "foto": "../logos/phyton.png"
+    }
+  ]
+}
