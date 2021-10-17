@@ -1,8 +1,15 @@
 {
+  "records": [
+    {
+      "nome": "Jaum",
+      "pontuacao": "15"
+    }
+  ],
+
   "cards": [
     {
       "id": 1,
-      "foto": "../logos/css.png"
+      "foto": "../logos/css.png" 
     },
     {
       "id": 2,
