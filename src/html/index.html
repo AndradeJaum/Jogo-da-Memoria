@@ -8,6 +8,7 @@
     <title>Jogos</title>
     <link rel="stylesheet" href="/src/css/reset.css">
     <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/records.css">
 </head>
 
 <body class="site">
@@ -16,27 +17,24 @@
             <h1 class="jogo__da__memoria">JOGO DA MEMÓRIA</h1>
             <ul class="menu__lista">
                 <li class="menu__item">
-                    <a class="menu__link" href="#">
-                        <i class="botao__inicio"></i>
+                    <a class="menu__link" href="index.html">
                         Inicio
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="#">
-                        <i class="botao__jogo"></i>
-                        Jogo
+                    <a class="menu__link" href="records.html">
+                        Records
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="#">
-                        <i class="botao__comojogar"></i>
-                        Como Jogar
+                    <a class="menu__link" href="comoJogar.html">
+                       Como Jogar
                     </a>
                 </li>
             </ul>
+            <div id="jogadas" class=""></div>
         </nav>
     </header>
-
     <main class="conteudo">
         <div class="galeria">
             <div class="imagens">
@@ -62,6 +60,31 @@
                 <div data-id="" class="fotos"></div>
             </div>
         </div>
+        <section class="record conteudo hide">
+            <h2 class="record__titulo"></h2>
+            <p class="record__mensagem">Adicione seu nome aos Records</p>
+            <div class="record__caixa">
+                <input id="input" class="record__input" type="text" placeholder="Username">
+                <button type="button"  class="record__botao">Adicionar</button>
+            </div>
+            <div class="record__lista">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>
+                                Nome
+                            </td>
+                            <td>
+                                Pontuação
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody class="tabela">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </main>
 
     <footer class="rodape">Todos os direitos reservados &copy; João Vitor de Andrade - 2021</footer>

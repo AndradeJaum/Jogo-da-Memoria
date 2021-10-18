@@ -2,6 +2,27 @@
     background: #f1f1f1;
     font-family: Arial, Helvetica, sans-serif;
 }
+.comojogar {
+    padding: 15px 30%;
+}
+.title{
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+}
+.subtitle{
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+}
+.line {
+    color: white;
+    padding: 5px;
+}
+.text {
+    color: white;
+    padding: 5px;
+}
 .menu {
     display: flex;
     flex-direction: column;
@@ -11,7 +32,7 @@
 }
 .cabecalho {
     background: #009edf;
-    height: 230px;
+    height: 270px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,36 +43,42 @@
     text-align: center;
     padding: 15px;
 }
+.jogadasRealizadas {
+    background: #054a66;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 40px;
+}
 .menu__lista {
     color:  #054a66;
     display: flex;
     justify-content: space-between;
     width: 400px;
+    margin-top: 20px;
 }
 .menu__item {
     background-color: #054a66;
-    padding: 12px;
-    border-radius: 7px;
-    width: 100px;
-    height: 20px;
     cursor: pointer;
     text-align: center;
-   transition: .3s;
+    transition: .3s;
 }
 .menu__item:hover {
     background-color: #054a66;
-    /* height: 30px; */
     transform: scale(1.1);
     box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
-    
 }
-.menu__link {
+.menu__item a {
     color: white;
     background-color: inherit;
     text-decoration: none;
+    padding: 15px;
+    border-radius: 7px;
 }
 .conteudo {
     background:#054a66;
+    position: relative;
 }
 .rodape {
     background: #fdfdfd;
@@ -62,7 +89,6 @@
     text-align: center;
 }
 .galeria {
-    
     width: 800px;
     display: flex;
     margin: auto;
@@ -89,10 +115,3 @@
 .foto-escolhida img {
     opacity: 1;
 }
-
-
-
-    
-
-
-
