@@ -1,7 +1,7 @@
 import { carregaFotos } from "./carrega.js"
 import { shuffleArray } from "./embaralha.js"
-import { cartas } from "./galeria.js"
-import { clicar } from "./galeria.js"
+import { cartas } from "./jogo.js"
+import { clicar } from "./jogo.js"
 
 export async function renderiza() {
     const galeriaServer = await carregaFotos()
@@ -17,4 +17,3 @@ export async function renderiza() {
         carta.innerHTML = imagem;
     })
 }
-renderiza()

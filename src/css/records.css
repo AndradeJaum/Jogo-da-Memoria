@@ -28,8 +28,9 @@
     border-radius: 24px;
     transition: 0.25s;
 }
-.record__input :focus {
-    width: 300px;
+.record__input:focus {
+    width: 200px;
+    background-color: #009edf;
 }
 .record__botao {
     background: none;
@@ -56,3 +57,11 @@ table {   border-collapse: collapse; }  td, th {
     border: 1px solid #999;   
     padding: 0.5rem;   
     text-align: left; }
+.record__lista{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.titulo__tabela {
+    text-transform: ;
+}

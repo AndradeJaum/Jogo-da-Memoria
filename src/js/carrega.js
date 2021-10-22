@@ -7,7 +7,9 @@ export function carregaRecords() {
     return fetch('http://localhost:3000/records')
         .then(resposta => resposta.json())
 }
+
 export function enviaRecords(nome, pontuacao) {
+    
     fetch("http://localhost:3000/records", {
         headers: {
             'Accept': 'application/json',

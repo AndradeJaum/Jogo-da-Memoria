@@ -9,7 +9,7 @@ const jogadas = document.getElementById('jogadas')
 let cartasEscolhidas = []
 let travaCarta = false;
 var pontuacao = 0;
-var acertos = 9;
+var acertos = 0;
 
 export function clicar(carta) {
     if (travaCarta || carta.classList.contains('foto-escolhida')) return
