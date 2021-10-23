@@ -52,7 +52,7 @@
     text-align: center;
     border: 2px solid #054a66;
     padding: 14px 10px;
-    width: 120px;
+    width: 25%;
     outline: none;
     border-radius: 24px;
 }
@@ -70,7 +70,7 @@
     text-align: center;
     border: 2px solid #054a66;
     padding: 14px 0px;
-    width: 120px;
+    width: 25%;
     outline: none;
     border-radius: 24px;
     transition: 0.25s;
