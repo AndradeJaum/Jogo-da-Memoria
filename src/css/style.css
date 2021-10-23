@@ -3,6 +3,7 @@
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     color: white;
+    box-sizing: border-box;
 }
 .comojogar {
     padding: 15px 30%;
@@ -27,6 +28,8 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    max-width: 800px;
+    width: 100%;
 }
 .cabecalho {
     background: #009edf;
@@ -34,6 +37,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
 }
 .jogo__da__memoria {
     font-size: 2.5rem;
@@ -55,17 +59,17 @@
 .menu__lista {
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 100%;
     margin-top: 20px;
 }
 .menu__item {
     background: none;
     display: block;
     border: 0;
-    margin: px auto;
+    margin:  auto;
     text-align: center;
     border: 2px solid #054a66;
-    padding: 14px 10px;
+    padding: 14px 0px;
     width: 120px;
     outline: none;
     border-radius: 24px;
@@ -79,27 +83,21 @@
 .menu__item a {
     color: white;
     text-decoration: none;
-    padding: 15px;
     border-radius: 7px;
 }
 .conteudo {
     background:#054a66;
     position: relative;
-    height: 100vh;
-}
-.rodape {
-    background: #fdfdfd;
-    color: #333333;
-    font-size: .8rem;
-    grid-area: rodape;
-    padding: 1rem;
-    text-align: center;
+    height: calc(100vh - 250px);
+    display: flex;
 }
 .galeria {
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     display: flex;
     margin: auto;
     padding: 10px;
+    box-sizing: border-box; 
 }
 .imagens {
     width: 100%;
