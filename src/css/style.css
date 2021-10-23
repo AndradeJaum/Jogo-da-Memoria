@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .comojogar {
-    padding: 15px 30%;
+    padding: 10px 30%;
 }
 .title{
     font-size: 2rem;
@@ -37,7 +37,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
 }
 .jogo__da__memoria {
     font-size: 2.5rem;
@@ -51,7 +50,7 @@
     margin: 20px auto;
     text-align: center;
     border: 2px solid #054a66;
-    padding: 14px 10px;
+    line-height: 2rem;
     width: 25%;
     outline: none;
     border-radius: 24px;
@@ -62,34 +61,33 @@
     width: 100%;
     margin-top: 20px;
 }
-.menu__item {
-    background: none;
-    display: block;
-    border: 0;
-    margin:  auto;
-    text-align: center;
-    border: 2px solid #054a66;
-    padding: 14px 0px;
-    width: 25%;
-    outline: none;
-    border-radius: 24px;
-    transition: 0.25s;
-}
-.menu__item:hover {
+.menu__item a:hover {
     background-color: #054a66;
     transform: scale(1.1);
-    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
+}
+.menu__item {
+    width: 25%;
 }
 .menu__item a {
     color: white;
     text-decoration: none;
-    border-radius: 7px;
+    border: 2px solid #054a66;
+    border-radius: 24px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 2rem;
+    transition: 0.20s;
 }
 .conteudo {
     background:#054a66;
     position: relative;
     height: calc(100vh - 250px);
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 .galeria {
     max-width: 800px;

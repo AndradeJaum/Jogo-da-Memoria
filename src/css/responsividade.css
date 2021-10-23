@@ -1,9 +1,16 @@
 @media screen and (max-width:768px){
     .menu__item {
         width: 20%;
+        margin: auto;
+    }
+    .menu__item a{
+        width: 100%;
     }
     .jogadasRealizadas {
         width: 20%;
+    }
+    .comojogar {
+        padding: 15px 20%;
     }
 }
 @media screen and (max-width:450px){
@@ -12,5 +19,8 @@
     }
     .jogadasRealizadas {
         width: 30%;
+    }
+    .comojogar {
+        padding: 15px 15%;
     }
 }
